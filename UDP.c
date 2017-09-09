@@ -39,7 +39,7 @@ int main(){
        exit(1);
      }
      buf[z]=0;
-     printf("接收：%s",buf);
+     printf("结束:%s",buf);
      if(strncmp(buf,"stop",4)==0){
        printf("结束....\n");
        break;
